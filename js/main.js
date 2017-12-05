@@ -21,7 +21,5 @@ $(document).ready(function() {
                 $(item).hide().removeClass('active');
             }
         });
-        //create array from items that are visible
-        populateArray();
     });
 });

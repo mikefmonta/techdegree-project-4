@@ -71,17 +71,17 @@ div.lb-data .lb-caption {
     border-radius: 10px;
 }
 
+.lb-nav a.lb-next,
+.lb-nav a.lb-prev{
+  opacity: 1;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
 
     .container {
         width: 95%;
-    }
-
-    .lb-nav a.lb-next,
-    .lb-nav a.lb-prev{
-      opacity: 1;
     }
 
     div.lb-data .lb-caption {
